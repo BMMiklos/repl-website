@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     fontFamily: {
       press: "PressStart2P",
-      sans: "OpenSans"
+      sans: "OpenSans",
+      raleway: "Raleway"
     },
     extend: {
       colors: {
@@ -19,7 +20,21 @@ module.exports = {
     dropShadow: {
       'repl-cyan': '4px 4px 0 #00ffff',
       'repl-gray': '4px 4px 0 #282c34',
-    }
-  },
-  plugins: [],
+    },
+    keyframes: {
+      increase: {
+        '0%, 100%': { width: '75%' },
+        '50%': { width: '100%' },
+      },
+      pulse : {
+        '0%, 100%': { filter: 'opacity(100%)' },
+        '50%': { filter: 'opacity(0%)' },
+      }
+    },
+    animation: {
+      increase: 'increase 60s ease-in-out infinite',
+      pulse: 'pulse 1s cubic-bezier(0.2, -2, 0.8, 2) infinite',
+    },
+    plugins: [],
+  }
 }
