@@ -13,12 +13,14 @@ module.exports = {
     extend: {
       colors: {
         ...colors,
-        cyan: "#00ffff",
-        gray: "#282c34"
+        white: "#ffffff",
+        cyan: "#55ffff",
+        gray: "#353b45",
+        'dark-gray': "#282c34"
       },
     },
     dropShadow: {
-      'repl-cyan': '4px 4px 0 #00ffff',
+      'repl-cyan': '4px 4px 0 #55ffff',
       'repl-gray': '4px 4px 0 #282c34',
     },
     keyframes: {

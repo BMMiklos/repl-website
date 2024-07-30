@@ -5,17 +5,18 @@ function App() {
   return (
     <div className="App">
 
-      <header className="flex bg-gray p-10 mb-4 drop-shadow-repl-cyan">
-        <h1 className="font-press text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse">_</span></h1>
+      <header className="flex bg-dark-gray p-10 mb-4 relative drop-shadow-repl-cyan">
+        <h1 className="font-press text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse hidden">_</span></h1>
+        <Divider/>
       </header>
 
       <div className="p-2 md:p-0 container mx-auto mb-4">
 
-        <h2 className="font-press text-2xl mb-2">Bemutatkozás</h2>
+        <h2 className="font-sans text-3xl mb-2">Bemutatkozás</h2>
 
-        <div className="bg-cyan p-2 border-cyan border-l-4 drop-shadow-repl-gray">
+        <div className="p-2 border-cyan">
 
-        <p className="text-2xl mb-2">Üdvözlöm!<br/></p>
+        <p className="text-3xl mb-2">Üdvözlöm!<br/></p>
 
           <p className="font-sans text-lg mb-2">
             Először is had mutatkozzak be! Engem Balázs Miklósnak hívnak.<br/>
@@ -34,17 +35,15 @@ function App() {
 
       </div>
 
-      <Divider />
-
       <div className="p-2 md:p-0 mb-4">
 
         <div className="container mx-auto mb-4">
 
-          <h2 className="font-press text-2xl mb-2">Miben segíthetek?</h2>
+          <h2 className="font-sans text-3xl mb-2">Miben segíthetek?</h2>
 
-          <div className="bg-cyan p-2 drop-shadow-repl-gray">
+          <div className="p-2">
 
-            <p className="font-sans text-lg indent-12">
+            <p className="font-sans text-lg">
               Eddigi pályafutásom során volt már szerencsém kis cégekhez, nagyobbakhoz,
               megesett már olyan, hogy egy vállalkozás igényeit nekem kellett felmérni,
               és történt már olyan is, hogy egy már meglévő termék fejlesztésébe vettem részt.
@@ -81,18 +80,16 @@ function App() {
 
       </div>
 
-      <Divider />
-
       {/* Technológiai stack */}
 
       <div className="p-2 md:p-0 container mx-auto mb-4">
 
-        <h2 className="font-press text-2xl mb-4">Általam használt technológiák...</h2>
+        <h2 className="font-sans text-3xl mb-4">Általam használt technológiák...</h2>
 
         <div className="flex flex-col md:flex-row">
 
-          <div className="basis-1/4 bg-cyan p-4 transition ease hover:drop-shadow-repl-gray">
-            <h3 className="font-press text-center mb-2">Frontend</h3>
+          <div className="basis-1/4 bg-cyan p-4">
+            <h3 className="font-sans font-bold text-lg text-center mb-2">Frontend</h3>
 
             <ul className="text-lg">
               <li>HTML5</li>
@@ -107,8 +104,8 @@ function App() {
 
           </div>
 
-          <div className="basis-1/4 p-4 transition ease hover:drop-shadow-repl-cyan">
-            <h3 className="font-press text-center mb-2">Backend</h3>
+          <div className="basis-1/4 p-4">
+            <h3 className="font-sans font-bold text-lg text-center mb-2">Backend</h3>
 
             <ul className="text-lg">
               <li>Node.js</li>
@@ -122,8 +119,8 @@ function App() {
 
           </div>
 
-          <div className="basis-1/4 bg-cyan p-4 transition ease hover:drop-shadow-repl-gray">
-            <h3 className="font-press text-center mb-2">Beágyazott rendszerek</h3>
+          <div className="basis-1/4 bg-cyan p-4">
+            <h3 className="font-sans font-bold text-lg text-center mb-2">Beágyazott rendszerek</h3>
 
             <ul className="text-lg">
               <li>Embedded C / C++</li>
@@ -136,8 +133,8 @@ function App() {
 
           </div>
 
-          <div className="basis-1/4 p-4 transition ease hover:drop-shadow-repl-cyan">
-            <h3 className="font-press text-center mb-2 animate-boxshadow">IoT és eszközök</h3>
+          <div className="basis-1/4 p-4">
+            <h3 className="font-sans font-bold text-lg text-center mb-2">IoT és eszközök</h3>
 
             <ul className="text-lg">
               <li>Node.js, Node-RED</li>
@@ -158,17 +155,15 @@ function App() {
 
       </div>
 
-      <Divider/>
-
       <div className="p-2 md:p-0 container mx-auto mb-4">
-        <h2 className="font-press text-2xl mb-4">Kapcsolat</h2>
-        <p className="font-press">Amennyiben kérdése van, vagy érdeklődik kérem keressen elérhetőségeim egyikén.</p>
-        <p className="font-press">Telefon: +36 30 476 1338</p>
-        <p className="font-press">Email: balazs.miklos@yahoo.com</p>
+        <h2 className="font-sans text-3xl mb-4">Kapcsolat</h2>
+        <p className="font-sans">Amennyiben kérdése van, vagy érdeklődik kérem keressen elérhetőségeim egyikén.</p>
+        <p className="font-sans">Telefon: +36 30 476 1338</p>
+        <p className="font-sans">Email: balazs.miklos@yahoo.com</p>
       </div>
 
-      <footer className="flex justify-center items-center bg-gray h-40 border-t-4 border-cyan">
-        <p className="font-press text-white text-center">Minden jog fentartva!<br/>repl.hu</p>
+      <footer className="flex justify-center items-center bg-dark-gray h-40 border-t-4 border-cyan">
+        <p className="font-sans text-white text-center">Minden jog fentartva!<br/>repl.hu</p>
       </footer>
 
     </div>

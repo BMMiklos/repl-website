@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body  {
+  background-color: #f7f7f7;
+}
+
 @font-face {
   font-family: PressStart2P;
   src: url(fonts/PressStart2P-Regular.ttf);

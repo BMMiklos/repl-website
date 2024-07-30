@@ -620,6 +620,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .size-24 {
   width: 6rem;
   height: 6rem;
@@ -653,20 +657,6 @@ video {
   flex-basis: 75%;
 }
 
-@keyframes increase {
-  0%, 100% {
-    width: 75%;
-  }
-
-  50% {
-    width: 100%;
-  }
-}
-
-.animate-increase {
-  animation: increase 60s ease-in-out infinite;
-}
-
 @keyframes pulse {
   0%, 100% {
     filter: opacity(100%);
@@ -681,10 +671,6 @@ video {
   animation: pulse 1s cubic-bezier(0.2, -2, 0.8, 2) infinite;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -697,27 +683,33 @@ video {
   justify-content: center;
 }
 
-.border-l-4 {
-  border-left-width: 4px;
-}
-
 .border-t-4 {
   border-top-width: 4px;
 }
 
 .border-cyan {
   --tw-border-opacity: 1;
-  border-color: rgb(0 255 255 / var(--tw-border-opacity));
+  border-color: rgb(85 255 255 / var(--tw-border-opacity));
 }
 
 .bg-cyan {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(85 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-dark-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 44 52 / var(--tw-bg-opacity));
 }
 
 .bg-gray {
   --tw-bg-opacity: 1;
-  background-color: rgb(40 44 52 / var(--tw-bg-opacity));
+  background-color: rgb(53 59 69 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -748,11 +740,6 @@ video {
   font-family: OpenSans;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -760,6 +747,11 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -773,7 +765,7 @@ video {
 }
 
 .drop-shadow-repl-cyan {
-  --tw-drop-shadow: drop-shadow(4px 4px 0 #00ffff);
+  --tw-drop-shadow: drop-shadow(4px 4px 0 #55ffff);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -782,43 +774,39 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.delay-75 {
-  transition-delay: 75ms;
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-gray:hover {
+  --tw-text-opacity: 1;
+  color: rgb(53 59 69 / var(--tw-text-opacity));
 }
 
 .hover\:drop-shadow-repl-cyan:hover {
-  --tw-drop-shadow: drop-shadow(4px 4px 0 #00ffff);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:drop-shadow-repl-gray:hover {
-  --tw-drop-shadow: drop-shadow(4px 4px 0 #282c34);
+  --tw-drop-shadow: drop-shadow(4px 4px 0 #55ffff);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 768px) {
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .md\:flex {
     display: flex;
   }
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
   }
 
   .md\:p-0 {
