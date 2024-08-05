@@ -5,10 +5,11 @@ function App() {
   return (
     <div className="App">
 
-      <header className="flex bg-dark-gray p-10 mb-4 relative drop-shadow-repl-cyan">
-        <h1 className="font-press text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse hidden">_</span></h1>
-        <Divider/>
+      <header className="bg-dark-gray p-10 mb-4 relative drop-shadow-repl-cyan">
+        <h1 className="font-press text-center md:text-left text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse hidden">_</span></h1>
       </header>
+
+      {/* Bemutatkozás */}
 
       <div className="p-2 md:p-0 container mx-auto mb-4">
 
@@ -19,12 +20,11 @@ function App() {
         <p className="text-3xl mb-2">Üdvözlöm!<br/></p>
 
           <p className="font-sans text-lg mb-2">
-            Először is had mutatkozzak be! Engem Balázs Miklósnak hívnak.<br/>
-
-            Szeretek magamra úgy gondolni, hogy az a mérnök, aki imádja a technológiát, annak fejlődését, és azokat az összefüggéseket,
-            amelyek a technológia változásaival jönnek létre. <br/>Nagyon fontos számomra, hogy képezzem magam, legyen szó önismeretről, üzletről,
+            Először is had mutatkozzak be! Én <span className="font-bold">Balázs Miklós</span> vagyok.<br/>
+            Olyan mérnöknek gondolom magam, aki szeret új dolgokat létrehozni, vagy a már meglévő dolgokat úgy átalakítani, hogy értékben növekedjen.
+            <br/>Nagyon fontos számomra, hogy képezzem magam, legyen szó önismeretről, üzletről,
             kommunikációról, emberi kapcsolatokról, az élethosszon való tanulás mellett nem felejtem el azt sem, hogy, ha nyitott szemmel járok rengeteg lehetőséget tudok felfedezni,
-            ami elképzelhető, hogy mások problémáinak megoldását jelenti.
+            ami akár járhat azzal is, hogy mások problémáin segíthetek.
           </p>
 
           <p className="font-sans font-bold text-lg mb-2"> Ezen elvek mentén szeretek élni. Létrehozni új dolgokat, egyszerűen alkotni.</p>
@@ -34,6 +34,8 @@ function App() {
         </div>
 
       </div>
+
+      {/* Miben segíthetek? */}
 
       <div className="p-2 md:p-0 mb-4">
 
@@ -47,7 +49,7 @@ function App() {
               Eddigi pályafutásom során volt már szerencsém kis cégekhez, nagyobbakhoz,
               megesett már olyan, hogy egy vállalkozás igényeit nekem kellett felmérni,
               és történt már olyan is, hogy egy már meglévő termék fejlesztésébe vettem részt.
-              <br/>Hogy legyen elképzelése, ezért bemutatok pár általam megoldott problémát.
+              Hogy legyen elképzelése, ezért bemutatok pár általam megoldott problémát.
             </p>
 
           </div>
@@ -84,7 +86,7 @@ function App() {
 
       <div className="p-2 md:p-0 container mx-auto mb-4">
 
-        <h2 className="font-sans text-3xl mb-4">Általam használt technológiák...</h2>
+        <h2 className="font-sans text-3xl mb-4">Általam használt technológiák</h2>
 
         <div className="flex flex-col md:flex-row">
 
