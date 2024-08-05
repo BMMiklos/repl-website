@@ -1,8 +1,13 @@
 import { Service } from "./components/service";
+import { CookieConsent } from "./components/cookie-consent";
 
 function App() {
   return (
     <div className="App">
+
+      {/* Sütik elfogadása */}
+
+      <CookieConsent/>
 
       <header className="bg-dark-gray p-10 mb-4 relative drop-shadow-repl-cyan">
         <h1 className="font-press text-center md:text-left text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse hidden">_</span></h1>
