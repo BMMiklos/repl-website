@@ -1,4 +1,3 @@
-import { Divider } from "./components/divider";
 import { Service } from "./components/service";
 
 function App() {
@@ -63,21 +62,23 @@ function App() {
         </Service>
 
         <Service title="Kezelőfelület létrehozása" image={<img src="/images/ui.png"></img>}>
-          Feladatunk az volt, hogy a már meglévő webes komponenseket alakítsunk úgy át hogy a komponensek működésükben ne változzanak, de az új design system elgondolását kövessék.
+          Feladatunk az volt, hogy a már meglévő webes komponenseket alakítsunk úgy át hogy a komponensek működésükben ne változzanak, de az új design system formanyelvét kövessék.
           <br/>Ekkora léptékű projektnél már elengedhetetlen volt saját komponens könyvtár alkalmazása, erre használtunk egy eszközt, ami rendszerezte a komponenseket,
           és a megrendelőknek is lehetőséget biztosított, hogy folyamatosan nyomon tudják követni a fejlesztés folyamatát.
         </Service>
 
         <Service title="Rendszerintegráció" image={<img src="/images/code.png"></img>}>
-          Léteznek kész megoldások, ezek általában egy konkrét problémára adnak megoldást. Arra viszont már nem feltétlenül adnak megoldást, hogy a többi kész megoldással hogyan lehetne összekapcsolni ezeket.
-          <br/>Jellemzően gyártásban résztvevő eszközök, és adatgyűjtő szoftverek integrálásáról összekapcsolásáról esik szó IoT eszközökkel. Megesett már, hogy SCADA rendszeren kellett megjeleníteni egy fizikai szerver állapotát,
-          és naplózni azt, és olyan is volt, hogy fogyasztásmérő órák értékeit kellett eljuttatni egy felhő alapú szolgáltatás felé.
+          Léteznek kész megoldások, ezek általában egy konkrét problémára adnak megoldást. Arra viszont már nem feltétlenül adnak megoldást, hogy a többi kész megoldással hogyan lehetne összekapcsolni, 
+          és ettől lesznek változatosak az IoT rendszerek felhasználási területei.
+          <br/>Jellemzően gyártásban résztvevő eszközök, és külső felek által létrehozott megoldásokat kelett összeegyeztetni. Példaképp megemlíthető, hogy SCADA rendszeren kellett megjeleníteni egy fizikai szerver állapotát,
+          és naplózni azt, vagy, hogy energiamérő berendezéseket 
+          <br/>
         </Service>
 
         <Service title="Beágyazott rendszerek" image={<img src="/images/microchip.png"></img>}>
-          Számomra teljesen véletlenül jött a lehetőség, hogy mester villamosmérnöki szakon beágyazott rendszerekről tanulhatok, amely a mai napig is tart.<br/>
+          Számomra teljesen véletlenül jött a lehetőség, hogy villamosmérnöki szakon beágyazott rendszerekről tanulhatok, amely a mai napig is tart.<br/>
           Jelenleg szabadidőben a beágyazott rendszerek működéséről, biztonságkritikus rendszerek tervezéséről, beágyazott rendszerek tesztelési megoldásainak keresésevel foglalkozom.
-          Diplomamunkámat annak szentelem, hogy egy beágyazott rendszer fejlesztését, tesztelését (hardware in the loop), hogyan lehetne összepárosítani a leghatékonyabban egy a mai modern CI/CD eszköz felhasználásával.
+          Diplomamunkámat annak szentelem, hogy egy beágyazott rendszer fejlesztését, tesztelését (hardware in the loop környezetben), hogyan lehetne összepárosítani a leghatékonyabban egy a mai modern CI/CD eszköz felhasználásával.
         </Service>
 
       </div>
@@ -86,7 +87,7 @@ function App() {
 
       <div className="p-2 md:p-0 container mx-auto mb-4">
 
-        <h2 className="font-sans text-3xl mb-4">Általam használt technológiák</h2>
+        <h2 className="font-sans text-3xl mb-4">Általam használt eszközök és technológiák</h2>
 
         <div className="flex flex-col md:flex-row">
 
@@ -113,7 +114,7 @@ function App() {
               <li>Node.js</li>
               <li>Express</li>
               <li>GraphQL, REST API</li>
-              <li>Sequelize</li>
+              <li>Sequelize ORM</li>
               <li>PostgreSQL, MySQL</li>
               <li>MongoDB, Mongoose</li>
               <li>Docker, Docker Compose</li>
@@ -125,12 +126,11 @@ function App() {
             <h3 className="font-sans font-bold text-lg text-center mb-2">Beágyazott rendszerek</h3>
 
             <ul className="text-lg">
-              <li>Embedded C / C++</li>
+              <li>Embedded C</li>
               <li>Microchip MCUs</li>
-              <li>Node.js, Node-RED</li>
-              <li>MQTT</li>
               <li>Modbus TCP</li>
-              <li>HTTP</li>
+              <li>UART</li>
+              <li>I2C</li>
             </ul>
 
           </div>
@@ -139,6 +139,7 @@ function App() {
             <h3 className="font-sans font-bold text-lg text-center mb-2">IoT és eszközök</h3>
 
             <ul className="text-lg">
+              <li>C++</li>
               <li>Node.js, Node-RED</li>
               <li>MQTT</li>
               <li>Modbus TCP</li>
