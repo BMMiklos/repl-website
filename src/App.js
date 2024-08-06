@@ -1,6 +1,7 @@
 import { Service } from "./components/service";
 import { CookieConsent } from "./components/cookie-consent";
-import { PrivacyPolicy } from "./components/privacy-policy";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
 
 function App() {
   return (
@@ -10,13 +11,9 @@ function App() {
 
       <CookieConsent/>
 
-      {/* Adatvédelmi nyilatkozat */}
+      {/* Header */}
 
-      <PrivacyPolicy/>
-
-      <header className="bg-dark-gray p-10 mb-4 relative drop-shadow-repl-cyan">
-        <h1 className="font-press text-center md:text-left text-white text-3xl">REPL&gt;&gt;<span className="animate-pulse hidden">_</span></h1>
-      </header>
+      <Header/>
 
       {/* Bemutatkozás */}
 
@@ -175,10 +172,7 @@ function App() {
         <p className="font-sans">Email: balazs.miklos@yahoo.com</p>
       </div>
 
-      <footer className="flex flex-col justify-center items-center bg-dark-gray h-40 border-t-4 border-cyan">
-        <p className="font-sans text-white text-center">Minden jog fentartva!<br/>repl.hu</p>
-        <button className="font-sans text-white text-center">Adatvédelmi nyilatkozat</button>
-      </footer>
+      <Footer/>
 
     </div>
   );
