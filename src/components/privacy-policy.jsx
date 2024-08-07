@@ -12,8 +12,8 @@ const PrivacyPolicy = () => {
 
             <p className="mb-4">
                 Ezeket a feltételeket Magyarország törvényei szabályozzák.
-                Ez a tájékoztató az EU 2016/679 általános adatvédelmi rendeletének (angol rövidítéssel GDPR/General Data Protection Regulation) megfelelően biztosítja, hogy a szolgáltatásokat igénybe vevő természetes személyek Balázs Miklós EV. valamennyi szolgáltatásának igénybe vétele előtt megismerjék milyen személyes adataikat kezelik, hogyan történik a személyes adataik kezelése, milyen kötelező adatvédelmi szabályok vonatkoznak jogviszonyukra, milyen adatkezelési gyakorlatot folytat a szolgáltató, milyen jogok állnak rendelkezésükre jogaik és érdekeik védelme érdekében, adataikat milyen célból ,és hova továbbíthatják.
-                Balázs Miklós EV. (a továbbiakban: Szolgáltató) a repl.hu weboldal (a továbbiakban: Honlap) üzemeltetése során, a Honlapon vásárlók (a továbbiakban Érintett) adatait kezeli.
+                Ez a tájékoztató az EU 2016/679 általános adatvédelmi rendeletének (angol rövidítéssel GDPR/General Data Protection Regulation) megfelelően biztosítja, hogy a szolgáltatásokat igénybe vevő természetes személyek Balázs Miklós valamennyi szolgáltatásának igénybe vétele előtt megismerjék milyen személyes adataikat kezelik, hogyan történik a személyes adataik kezelése, milyen kötelező adatvédelmi szabályok vonatkoznak jogviszonyukra, milyen adatkezelési gyakorlatot folytat a szolgáltató, milyen jogok állnak rendelkezésükre jogaik és érdekeik védelme érdekében, adataikat milyen célból ,és hova továbbíthatják.
+                Balázs Miklós (a továbbiakban: Szolgáltató) a repl.hu weboldal (a továbbiakban: Honlap) üzemeltetése során, a Honlapon vásárlók (a továbbiakban Érintett) adatait kezeli.
                 Az adatok kezelésével összefüggésben a Szolgáltató ezúton tájékoztatja az Érintetteket a Honlapon általa kezelt személyes adatokról, a személyes adatok kezelése körében követett elveiről és gyakorlatáról, valamint az érintettek jogai gyakorlásának módjáról és lehetőségeiről.
                 Az Érintett a Honlap használatával elfogadja az Adatkezelési tájékoztatóban foglaltakat, és hozzájárul az alábbiakban meghatározott adatkezelésekhez.
                 A Szolgáltató az adatvédelmi elveinek kialakításakor a GDPR szabályain kívül különös tekintettel vette figyelembe az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvényt, az 1998. évi VI. törvényt az egyének védelméről a személyes adatok gépi feldolgozása során, illetőleg az “Online Privacy Alliance” ajánlásait.
@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
                 Az Érintett a Honlap használatával és a megfelelő (“Kártyás fizetés Borgun”) fizetési opció kiválasztásával hozzájárulását adja, hogy a következő személyes adatait adatokat a Szolgáltató átadja az internetes fizetés lebonyolítása céljából  B-Payment Zrt. (1132 Budapest, Váci út 4.) mint adatkezelő számára: felhasználónév, vezetéknév, keresztnév, ország, telefonszám, email cím. Az adattovábbítás célja: az Érintett részére történő ügyfélszolgálati segítségnyújtás, a tranzakciók visszaigazolása és az Érintettek védelme érdekében végzett fraud-monitoring.
             </p>
 
-            <p className="mb-4">
+            <p className="mb-4 hidden">
                 <br />A szolgálató mint adatkezelő adatai:
                 <br />Név: Balázs Miklós EV.
                 <br />Székhely: 2094 Nagykovácsi, Nagyszénás utca 15.
@@ -188,7 +188,7 @@ const PrivacyPolicy = () => {
                 Az Érintett tiltakozhat személyes adatának kezelése ellen. A Szolgáltató a tiltakozást a kérelem benyújtásától számított legrövidebb időn belül, de legfeljebb 15 nap alatt megvizsgálja, annak megalapozottsága kérdésében döntést hoz, és döntéséről a kérelmezőt írásban tájékoztatja.
             </p>
 
-            <p className="mb-4">Az Érintett a jogait az alábbi elérhetőségeken gyakorolhatja:
+            <p className="mb-4 hidden">Az Érintett a jogait az alábbi elérhetőségeken gyakorolhatja:
                 Név: Balázs Miklós EV.
                 Székhely: 2094 Nagykovácsi, Nagyszénás utca 15.
                 Levelezési cím: 2094 Nagykovácsi, Nagyszénás utca 15.
