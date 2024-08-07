@@ -70,9 +70,8 @@ const PrivacyPolicy = () => {
                 </div>
             </p>
 
-            <p className="mb-4">
-                Regisztrációs adatok
-                A regisztráció során az Érintettnek kötelezően meg kell adnia alábbi adatokat:
+            <p className="mb-4 hidden">
+                Regisztrációs adatok A regisztráció során az Érintettnek kötelezően meg kell adnia alábbi adatokat:
                 <ul>
                     <li>név</li>
                     <li>cím, szállítási cím</li>
