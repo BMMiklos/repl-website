@@ -9,11 +9,11 @@ function App() {
 
       {/* Sütik elfogadása */}
 
-      <CookieConsent/>
+      <CookieConsent />
 
       {/* Header */}
 
-      <Header/>
+      <Header />
 
       {/* Bemutatkozás */}
 
@@ -23,19 +23,19 @@ function App() {
 
         <div className="p-2 border-cyan">
 
-        <p className="text-3xl mb-2">Üdvözlöm!<br/></p>
+          <p className="text-3xl mb-2">Üdvözlöm!<br /></p>
 
           <p className="font-sans text-lg mb-2">
-            Először is had mutatkozzak be! Én <span className="font-bold">Balázs Miklós</span> vagyok.<br/>
-            Olyan mérnöknek gondolom magam, aki szeret új dolgokat létrehozni, vagy a már meglévő dolgokat úgy átalakítani, hogy értékben növekedjen.
-            <br/>Nagyon fontos számomra, hogy képezzem magam, legyen szó önismeretről, üzletről,
+            Először is had mutatkozzak be! Én <span className="font-bold">Balázs Miklós</span> vagyok.<br />
+            Olyan mérnöknek gondolom magam, aki szeret új dolgokat létrehozni, vagy a már meglévő dolgokat úgy átalakítani, hogy az jellemben jobb legyen.
+            <br />Nagyon fontos számomra, hogy képezzem magam, legyen szó önismeretről, üzletről,
             kommunikációról, emberi kapcsolatokról, az élethosszon való tanulás mellett nem felejtem el azt sem, hogy, ha nyitott szemmel járok rengeteg lehetőséget tudok felfedezni,
             ami akár járhat azzal is, hogy mások problémáin segíthetek.
           </p>
 
           <p className="font-sans font-bold text-lg mb-2"> Ezen elvek mentén szeretek élni. Létrehozni új dolgokat, egyszerűen alkotni.</p>
 
-          <p className="font-sans text-lg mb-2">Keressen bizalommal. <br/>Üdvözlettel: Balázs Miklós</p>
+          <p className="font-sans text-lg mb-2">Keressen bizalommal. <br />Üdvözlettel: Balázs Miklós</p>
 
         </div>
 
@@ -65,25 +65,25 @@ function App() {
         <Service title="Szoftverfejlesztés" image={<img src="/images/chart.png"></img>}>
           Egy olyan rendszer létrehozására volt a feladat, ami a kiküldött ajánlatok életútját követte végig. Lehetőségem volt a rendszer létrehozásának minden fázisában részt venni, mint a specifikáció,
           adatbázis tervezése, üzleti logika létrehozása, nagyobb feladatok részfeldatokra való bontására, jogosultsági rendszer átgondolására, fejlesztők irányítására.
-          <br/>Ez a szoftver meghatározó lett a vállalkozás életében, üzleti automatizálás jelent meg egy olyan területen, ahol eddig ilyen nem volt, a vállalkozás folyamatai egyszerűsödtek.
+          <br />Ez a szoftver meghatározó lett a vállalkozás életében, üzleti automatizálás jelent meg egy olyan területen, ahol eddig ilyen nem volt, a vállalkozás folyamatai egyszerűsödtek.
         </Service>
 
         <Service title="Kezelőfelület létrehozása" image={<img src="/images/ui.png"></img>}>
           Feladatunk az volt, hogy a már meglévő webes komponenseket alakítsunk úgy át hogy a komponensek működésükben ne változzanak, de az új design system formanyelvét kövessék.
-          <br/>Ekkora léptékű projektnél már elengedhetetlen volt saját komponens könyvtár alkalmazása, erre használtunk egy eszközt, ami rendszerezte a komponenseket,
+          <br />Ekkora léptékű projektnél már elengedhetetlen volt saját komponens könyvtár alkalmazása, erre használtunk egy eszközt, ami rendszerezte a komponenseket,
           és a megrendelőknek is lehetőséget biztosított, hogy folyamatosan nyomon tudják követni a fejlesztés folyamatát.
         </Service>
 
         <Service title="Rendszerintegráció" image={<img src="/images/code.png"></img>}>
-          Léteznek kész megoldások, ezek általában egy konkrét problémára adnak megoldást. Arra viszont már nem feltétlenül adnak megoldást, hogy a többi kész megoldással hogyan lehetne összekapcsolni, 
+          Léteznek kész megoldások, ezek általában egy konkrét problémára adnak megoldást. Arra viszont már nem feltétlenül adnak megoldást, hogy a többi kész megoldással hogyan lehetne összekapcsolni,
           és ettől lesznek változatosak az IoT rendszerek felhasználási területei.
-          <br/>Jellemzően gyártásban résztvevő eszközök, és külső felek által létrehozott megoldásokat kelett összeegyeztetni. Példaképp megemlíthető, hogy SCADA rendszeren kellett megjeleníteni egy fizikai szerver állapotát,
-          és naplózni azt, vagy, hogy energiamérő berendezéseket 
-          <br/>
+          <br />Jellemzően gyártásban résztvevő eszközök, és külső felek által létrehozott megoldásokat kelett összeegyeztetni. Példaképp megemlíthető, hogy SCADA rendszeren kellett megjeleníteni egy fizikai szerver állapotát,
+          és naplózni azt, vagy, hogy energiamérő berendezéseket.
+          <br />
         </Service>
 
         <Service title="Beágyazott rendszerek" image={<img src="/images/microchip.png"></img>}>
-          Számomra teljesen véletlenül jött a lehetőség, hogy villamosmérnöki szakon beágyazott rendszerekről tanulhatok, amely a mai napig is tart.<br/>
+          Számomra teljesen véletlenül jött a lehetőség, hogy villamosmérnöki szakon beágyazott rendszerekről tanulhatok, amely a mai napig is tart.<br />
           Jelenleg szabadidőben a beágyazott rendszerek működéséről, biztonságkritikus rendszerek tervezéséről, beágyazott rendszerek tesztelési megoldásainak keresésevel foglalkozom.
           Diplomamunkámat annak szentelem, hogy egy beágyazott rendszer fejlesztését, tesztelését (hardware in the loop környezetben), hogyan lehetne összepárosítani a leghatékonyabban egy a mai modern CI/CD eszköz felhasználásával.
         </Service>
@@ -135,7 +135,7 @@ function App() {
             <ul className="text-lg">
               <li>Embedded C</li>
               <li>Microchip MCUs</li>
-              <li>Modbus TCP</li>
+              <li>RS232</li>
               <li>UART</li>
               <li>I2C</li>
             </ul>
@@ -168,11 +168,13 @@ function App() {
       <div className="p-2 md:p-0 container mx-auto mb-4">
         <h2 className="font-sans text-3xl mb-4">Kapcsolat</h2>
         <p className="font-sans">Amennyiben kérdése van, vagy érdeklődik kérem keressen elérhetőségeim egyikén.</p>
-        <p className="font-sans">Telefon: +36 30 476 1338</p>
-        <p className="font-sans">Email: balazs.miklos@yahoo.com</p>
+        <p className="font-sans">Telefon: +36 30 <span className="hidden">1125478</span> 476 1338</p>
+        <p className="font-sans">
+          <a href="mailto:balazs.miklos&#64;yahoo&#46;com">balazs.miklos&#64;yahoo&#46;com</a>
+        </p>
       </div>
 
-      <Footer/>
+      <Footer />
 
     </div>
   );

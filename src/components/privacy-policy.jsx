@@ -32,9 +32,10 @@ const PrivacyPolicy = () => {
 
             <h2 className="text-2xl mb-4">Adatkezelés jogalapja</h2>
 
-            <p>A Szolgáltató általi adatkezelésekre a szerződés teljesítéséhez van szükség, illetve az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (a továbbiakban: Info.tv.) 5. § (1) bekezdés a) pontja szerint az Érintett önkéntes hozzájárulása alapján, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény 13/A. §-a, számlázás tekintetében pedig a számvitelről szóló 2000. évi C. törvény 169. § (2) bekezdése alapján kerül sor.
+            <p className="mb-4">A Szolgáltató általi adatkezelésekre a szerződés teljesítéséhez van szükség, illetve az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (a továbbiakban: Info.tv.) 5. § (1) bekezdés a) pontja szerint az Érintett önkéntes hozzájárulása alapján, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény 13/A. §-a, számlázás tekintetében pedig a számvitelről szóló 2000. évi C. törvény 169. § (2) bekezdése alapján kerül sor.
                 A Szolgáltató a neki megadott személyes adatokat nem ellenőrzi. A megadott adatok megfelelőségéért kizárólag az azt megadó személy, Érintett, szerződő felel. Bármely Érintett email címének megadásakor egyben felelősséget vállal azért, hogy a megadott email címről kizárólag ő vesz igénybe szolgáltatást. E felelősségvállalásra tekintettel egy megadott email címen történt belépésekkel összefüggő mindennemű felelősség kizárólag azt az Érintettet terheli, aki az email címet regisztrálta.
-                Az Érintett a Honlap használatával és a megfelelő (“Kártyás fizetés Borgun”) fizetési opció kiválasztásával hozzájárulását adja, hogy a következő személyes adatait adatokat a Szolgáltató átadja az internetes fizetés lebonyolítása céljából  B-Payment Zrt. (1132 Budapest, Váci út 4.) mint adatkezelő számára: felhasználónév, vezetéknév, keresztnév, ország, telefonszám, email cím. Az adattovábbítás célja: az Érintett részére történő ügyfélszolgálati segítségnyújtás, a tranzakciók visszaigazolása és az Érintettek védelme érdekében végzett fraud-monitoring.
+                <span className="hidden">Az Érintett a Honlap használatával és a megfelelő (“Kártyás fizetés Borgun”) fizetési opció kiválasztásával hozzájárulását adja, hogy a következő személyes adatait adatokat a Szolgáltató átadja az internetes fizetés lebonyolítása céljából  B-Payment Zrt. (1132 Budapest, Váci út 4.) mint adatkezelő számára: felhasználónév, vezetéknév, keresztnév, ország, telefonszám, email cím. Az adattovábbítás célja: az Érintett részére történő ügyfélszolgálati segítségnyújtás, a tranzakciók visszaigazolása és az Érintettek védelme érdekében végzett fraud-monitoring.
+                </span>
             </p>
 
             <p className="mb-4 hidden">
@@ -70,7 +71,7 @@ const PrivacyPolicy = () => {
             </p>
 
             <p className="mb-4">
-                Regisztrációs adatok 
+                Regisztrációs adatok
                 A regisztráció során az Érintettnek kötelezően meg kell adnia alábbi adatokat:
                 <ul>
                     <li>név</li>
@@ -133,26 +134,26 @@ const PrivacyPolicy = () => {
 
             <h2 className="text-2xl mb-2">Adatfeldolgozók megnevezése</h2>
             <p className="mb-4">
-                Név: 
+                Név:
                 <br />Tevékenység:
-                <br />Név: 
-                <br />Cím: 
-                <br />Tevékenység: 
-                <br />E-mail:  
-                <br />Név: 
-                <br />Cím: 
-                <br />Tevékenység: 
-                <br />Név: 
-                <br />Székhely: 
-                <br />Cégjegyzék-szám: 
-                <br />Tevékenység: 
+                <br />Név:
+                <br />Cím:
+                <br />Tevékenység:
+                <br />E-mail:
+                <br />Név:
+                <br />Cím:
+                <br />Tevékenység:
+                <br />Név:
+                <br />Székhely:
+                <br />Cégjegyzék-szám:
+                <br />Tevékenység:
             </p>
 
             <h2 className="text-2xl mb-2">Tárhely szolgáltató adatai</h2>
             <p className="mb-4">
-                Név:  
-                <br />Székhely: 
-                <br />Elérhetőségek: 
+                Név:
+                <br />Székhely:
+                <br />Elérhetőségek:
                 <br />A fentieken túl az Érintettre vonatkozó személyes adatok továbbítására kizárólag törvényben kötelezően meghatározott esetben, illetve az Érintett hozzájárulása alapján kerülhet sor.
                 <br />Érintett jogai és jogérvényesítési lehetőségek
                 <br />Az adatkezelés időtartamán belül Önt megilleti:
