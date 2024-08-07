@@ -19,7 +19,7 @@ const CookieConsent = () => {
         const cookies = new Cookies(null, { path: '/' });
         const cookieConsent = cookies.get("cookie-consent");
         
-        if (cookieConsent == "true" || cookieConsent == true) {
+        if (cookieConsent === "true" || cookieConsent === true) {
             setAccepted(true);
         }
 
